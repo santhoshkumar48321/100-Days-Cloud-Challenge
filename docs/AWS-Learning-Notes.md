@@ -1,3 +1,3 @@
 # AWS Learning Notes
 
-Capture recurring AWS concepts, pitfalls, and reusable patterns here.
+Track recurring AWS concepts, implementation decisions, troubleshooting notes, and best practices gathered from daily labs.
