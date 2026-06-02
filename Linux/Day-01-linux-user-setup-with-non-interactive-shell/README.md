@@ -93,11 +93,11 @@ This provides better feedback when a login attempt is made.
 - CI/CD automation users
 
 ## Screenshots Section
-Add screenshots of:
-- User creation command
-- Verification output
-- `/etc/passwd` entry
-- Successful task completion
+Add screenshots in `Linux/Day-01-linux-user-setup-with-non-interactive-shell/screenshots/`:
+- `![User creation command](screenshots/user-creation-command.png)`
+- `![Verification output](screenshots/verification-output.png)`
+- `![Passwd entry](screenshots/passwd-entry.png)`
+- `![Task completion](screenshots/task-completion.png)`
 
 Store screenshots in:
 ```text
@@ -105,10 +105,10 @@ Linux/Day-01-linux-user-setup-with-non-interactive-shell/screenshots/
 ```
 
 ## References
-- Linux User Management
-- `man useradd`
-- `man passwd`
-- Linux Security Best Practices
+- [Linux User and Group Management (RHEL Docs)](https://docs.redhat.com/en/documentation/red_hat_enterprise_linux/9/html/configuring_basic_system_settings/managing-users-and-groups_configuring-basic-system-settings)
+- [`useradd(8)` manual page](https://man7.org/linux/man-pages/man8/useradd.8.html)
+- [`passwd(5)` manual page](https://man7.org/linux/man-pages/man5/passwd.5.html)
+- [CIS Linux Security Best Practices Overview](https://www.cisecurity.org/benchmark/linux)
 
 ## Challenge Status
 **Completed Successfully**
