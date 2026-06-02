@@ -1,34 +1,47 @@
 # Azure Day 01: Create SSH Key Pair
 
-## Challenge Objective
-Define the goal for this challenge and why it matters in cloud operations.
+## Objective
+Create a secure SSH key pair for Azure Virtual Machine authentication and establish a secure access foundation for future VM labs.
 
 ## Problem Statement
-Describe the scenario, constraints, and expected outcome.
+Before launching Azure Virtual Machines, secure SSH authentication must be prepared. The task is to generate a reusable SSH key pair that can be used for passwordless and secure VM access.
 
-## Solution Steps
-1. Step 1
-2. Step 2
-3. Step 3
+## Prerequisites
+- Active Azure subscription
+- Azure CLI installed and authenticated (`az login`)
+- Local terminal with permission to create files in `~/.ssh`
 
-## Commands Used
+## Azure CLI Commands Used
 ```bash
-# Add the key commands used for this challenge
+# Create RSA 4096 SSH key pair
+ssh-keygen -t rsa -b 4096 -f ~/.ssh/nautilus-kp -C "azure-vm-access"
+
+# Verify key files
+ls -l ~/.ssh/nautilus-kp ~/.ssh/nautilus-kp.pub
+
+# View public key content for VM provisioning
+cat ~/.ssh/nautilus-kp.pub
 ```
 
-## Architecture Diagram
-Add or link your architecture diagram here.
+## Validation Steps
+1. Confirmed both private and public key files were generated.
+2. Verified private key permissions are restricted.
+3. Confirmed the public key is available for Azure VM authentication configuration.
 
-## Screenshots
-Add relevant screenshots from your deployment and validation.
-
-## Validation
-Explain how you validated success (CLI output, portal checks, health checks, logs, etc.).
+## Screenshots Section
+- Add screenshot of key generation command output.
+- Add screenshot showing `~/.ssh/nautilus-kp` and `~/.ssh/nautilus-kp.pub`.
+- Add screenshot of public key content used during VM setup.
 
 ## Key Learnings
-- Learning 1
-- Learning 2
-- Learning 3
+- Created an RSA SSH key pair named "nautilus-kp" using Azure services and validated secure authentication setup for Azure Virtual Machines.
+- Understood how SSH key-based access improves security compared to password-based login.
+- Practiced foundational secure access setup needed before VM provisioning.
 
 ## Real-World Use Cases
-List production scenarios where this implementation pattern is used.
+- Secure administrator access to Azure Linux VMs in production.
+- Automated VM provisioning pipelines that inject SSH public keys during deployment.
+- Standardized secure remote access for DevOps and platform engineering teams.
+
+## Summary
+Successfully created and validated the `nautilus-kp` RSA SSH key pair for Azure VM access. This lab established the baseline for secure, passwordless authentication in upcoming Azure infrastructure tasks.

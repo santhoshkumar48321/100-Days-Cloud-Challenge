@@ -29,10 +29,18 @@ I am intentionally learning **Azure and AWS together** to build provider-agnosti
 ## Professional Progress Dashboard
 | Metric | Value |
 |---|---:|
-| Azure Progress | 0 / 50 Labs Completed |
-| AWS Progress | 0 / 50 Labs Completed |
-| Total Labs Completed | 0 / 100 |
-| Current Learning Focus | IAM, Cloud Networking, Kubernetes Operations, IaC Automation |
+| Azure Progress | Completed: 1/50 |
+| Azure Remaining | Remaining: 49/50 |
+| AWS Progress | Completed: 1/50 |
+| AWS Remaining | Remaining: 49/50 |
+| Overall Progress | Completed Labs: 2/100 |
+| Completion Percentage | 2% |
+
+### Recent Achievements
+
+✅ Azure Day 01 - Create SSH Key Pair
+
+✅ AWS Day 01 - Create Key Pair
 
 ## Portfolio Scope
 This journey demonstrates practical work across:
@@ -106,12 +114,21 @@ Use this structure for every Azure and AWS lab:
 - Azure Learning Path
 - AWS Learning Path
 
-## Current Learning Roadmap
-- Multi-cloud IAM and security baselines
-- Cloud networking deep dive (VNet/VPC design patterns)
-- AKS/EKS platform operations
-- Terraform-first provisioning workflows
-- GitHub Actions automation for cloud delivery
+## Azure Roadmap
+| Day | Task | Status | Notes |
+|---|---|---|---|
+| Day 01 | Create SSH Key Pair | ✅ Completed | SSH key pair created successfully |
+
+## AWS Roadmap
+| Day | Task | Status | Notes |
+|---|---|---|---|
+| Day 01 | Create Key Pair | ✅ Completed | Key pair created successfully |
+
+## Current Learning Focus
+- Azure Infrastructure Fundamentals
+- AWS Infrastructure Fundamentals
+- Cloud Security Basics
+- Secure Access Management
 
 ## Monthly Cloud Projects
 - **Project-01:** Multi-tier app deployment with secure networking and IAM controls
