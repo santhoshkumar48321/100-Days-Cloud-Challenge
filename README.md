@@ -29,8 +29,8 @@ I am intentionally learning **Azure and AWS together** to build provider-agnosti
 ## Professional Progress Dashboard
 | Metric | Value |
 |---|---:|
-| Azure Progress | 50 / 50 Labs Planned |
-| AWS Progress | 50 / 50 Labs Planned |
+| Azure Progress | 0 / 50 Labs Completed |
+| AWS Progress | 0 / 50 Labs Completed |
 | Total Labs Completed | 0 / 100 |
 | Current Learning Focus | IAM, Cloud Networking, Kubernetes Operations, IaC Automation |
 
@@ -126,7 +126,7 @@ Use this structure for every Azure and AWS lab:
 
 ## Connect With Me
 - **GitHub:** [santhoshkumar48321](https://github.com/santhoshkumar48321)
-- **LinkedIn:** _Add your LinkedIn profile URL_
+- **LinkedIn:** Profile link will be added soon.
 
 ---
 If this portfolio helps you, consider ⭐ starring the repository.
