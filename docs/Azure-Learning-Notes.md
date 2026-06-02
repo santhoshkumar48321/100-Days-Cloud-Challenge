@@ -1,3 +1,3 @@
 # Azure Learning Notes
 
-Capture recurring Azure concepts, pitfalls, and reusable patterns here.
+Track recurring Azure concepts, implementation decisions, troubleshooting notes, and best practices gathered from daily labs.

@@ -1,3 +1,3 @@
 # Cloud Best Practices
 
-Document security, reliability, performance, cost, and operational excellence practices.
+Capture reusable patterns for security, reliability, operational excellence, performance efficiency, and cost optimization.
