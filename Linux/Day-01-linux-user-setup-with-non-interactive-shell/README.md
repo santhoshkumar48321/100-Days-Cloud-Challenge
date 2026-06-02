@@ -29,7 +29,7 @@ id kirsty
 
 ### Alternative Verification
 ```bash
-cat /etc/passwd | grep kirsty
+grep 'kirsty' /etc/passwd
 ```
 
 ## Expected Output
@@ -101,7 +101,7 @@ Add screenshots of:
 
 Store screenshots in:
 ```text
-screenshots/
+Linux/Day-01-linux-user-setup-with-non-interactive-shell/screenshots/
 ```
 
 ## References
